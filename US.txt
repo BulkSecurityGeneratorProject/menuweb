@@ -1,0 +1,11 @@
+formulaire de saisie d'un plat
+	mettre les équivalents en recerchant les mots composants le nom du plat dans la bdd et en les affichant dans un encart à côté avec la mention 
+		"plat dont le nom ressemble au votre. Attention à ne pas enregistrer un plat déjà existant."
+	type de plat			Ok
+		plat unique			Ok
+		accompagnement		Ok
+		protéine			Ok
+	virer le créateur, il doit être renseigné automatiquement par le back
+	tags
+		proposer une autocomplétion
+		pouvoir entrer un nouveau tag

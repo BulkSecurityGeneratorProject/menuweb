@@ -1,0 +1,12 @@
+{
+    "menuwebApp": {
+        "TypePlat" : {
+            "null": "",
+            "ENTREE": "ENTREE",
+            "PLAT_UNIQUE": "PLAT_UNIQUE",
+            "ACCOMPAGNEMENT": "ACCOMPAGNEMENT",
+            "PROTEINE": "PROTEINE",
+            "DESSERT": "DESSERT"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Plat.
+    -->
+    <changeSet id="20180228143345-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="createur_id"
+                                 baseTableName="plat"
+                                 constraintName="fk_plat_createur_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="plats_id"
+                                 baseTableName="plat_tags"
+                                 constraintName="fk_plat_tags_plats_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="plat"/>
+        <addForeignKeyConstraint baseColumnNames="tags_id"
+                                 baseTableName="plat_tags"
+                                 constraintName="fk_plat_tags_tags_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tag"/>
+        
+    </changeSet>
+</databaseChangeLog>

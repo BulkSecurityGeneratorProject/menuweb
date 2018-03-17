@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "plats",
+            "otherEntityName": "plat",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "createur"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nickname",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180228142634",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "user",
+    "jpaMetamodelFiltering": false,
+    "pagination": "infinite-scroll"
+}

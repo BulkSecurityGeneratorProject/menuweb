@@ -1,0 +1,26 @@
+
+{
+    "menuwebApp": {
+        "plat" : {
+            "home": {
+                "title": "Plats",
+                "createLabel": "Créer un nouveau Plat",
+                "createOrEditLabel": "Créer ou éditer un Plat"
+            },
+            "created": "Un nouveau Plat a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Plat avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Plat avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Plat {{ id }} ?"
+            },
+            "detail": {
+                "title": "Plat"
+            },
+            "name": "Name",
+            "type": "Type",
+            "description": "Description",
+            "createur": "Createur",
+            "tags": "Tags"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "plats",
+            "otherEntityName": "plat",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "tags"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": "3"
+        }
+    ],
+    "changelogDate": "20180228142027",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "tag",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
